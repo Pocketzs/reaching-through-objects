@@ -19,6 +19,7 @@ class TrickOrTreater
   end
 
   def eat
-    bag.shuffle!.pop
+    bag.pop
   end
+
 end
